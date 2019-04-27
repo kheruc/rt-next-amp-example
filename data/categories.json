@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Business"
+  },
+  {
+    "id": 2,
+    "title": "Travel"
+  },
+  {
+    "id": 3,
+    "title": "Tech"
+  },
+  {
+    "id": 4,
+    "title": "Sport"
+  }
+]

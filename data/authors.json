@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Alan Holmes",
+    "gender": "male",
+    "photo": "1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Susan Daniels",
+    "gender": "female",
+    "photo": "1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Harold Ryan",
+    "gender": "male",
+    "photo": "2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "William Mendez",
+    "gender": "male",
+    "photo": "3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Russell Davis",
+    "gender": "male",
+    "photo": "4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Danielle Harris",
+    "gender": "female",
+    "photo": "2.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dennis Ortiz",
+    "gender": "male",
+    "photo": "5.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Elizabeth Keller",
+    "gender": "female",
+    "photo": "3.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Martha Hall",
+    "gender": "female",
+    "photo": "4.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Alice Ford",
+    "gender": "female",
+    "photo": "5.jpg"
+  }
+]
