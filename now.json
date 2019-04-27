@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "next-amp-example",
+  "alias": "next-amp-example",
+  "public": true,
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
+}
