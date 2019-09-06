@@ -1,4 +1,3 @@
-import { withAmp } from 'next/amp';
 import Head from 'next/head';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
@@ -81,4 +80,6 @@ Post.getInitialProps = async ({ query }) => {
   return { post };
 };
 
-export default withAmp(Post);
+export const config = { amp: true };
+
+export default Post;

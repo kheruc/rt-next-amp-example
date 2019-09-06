@@ -1,4 +1,3 @@
-import { withAmp } from 'next/amp';
 import fetch from 'isomorphic-unfetch';
 import Layout from '../components/layout';
 import Post from '../components/post';
@@ -40,4 +39,6 @@ Category.getInitialProps = async ({ query }) => {
   return { category, posts };
 };
 
-export default withAmp(Category);
+export const config = { amp: true };
+
+export default Category;

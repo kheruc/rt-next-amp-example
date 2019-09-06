@@ -1,4 +1,3 @@
-import { withAmp } from 'next/amp';
 import fetch from 'isomorphic-unfetch';
 import Layout from '../components/layout';
 import Post from '../components/post';
@@ -27,4 +26,6 @@ Index.getInitialProps = async () => {
   return { posts };
 };
 
-export default withAmp(Index);
+export const config = { amp: true };
+
+export default Index;
