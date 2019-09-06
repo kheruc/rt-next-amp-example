@@ -7,8 +7,7 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "export": "next build && next export -o public",
-    "now-build": "next build && next export -o dist"
+    "export": "next build && next export -o public"
   },
   "repository": {
     "type": "git",
@@ -22,10 +21,10 @@
   },
   "homepage": "https://github.com/kheruc/rt-next-amp-example#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^8.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
