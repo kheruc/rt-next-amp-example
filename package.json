@@ -4,10 +4,9 @@
   "description": "An example of an AMP-only website built with Next.js",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "export": "next build && next export -o public"
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,6 @@
   },
   "homepage": "https://github.com/kheruc/rt-next-amp-example#readme",
   "dependencies": {
-    "express": "^4.17.1",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.0.5",
     "react": "^16.9.0",

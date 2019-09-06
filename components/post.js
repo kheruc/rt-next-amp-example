@@ -11,14 +11,14 @@ const Post = ({ post }) => {
         <strong>{author.name}</strong>
       </div>
       <div className="category">
-        <Link href={`/category?id=${post.category.id}`} as={`/category/${post.category.id}`}>
+        <Link href="/category/[cid]" as={`/category/${post.category.id}`}>
           <a>{post.category.title}</a>
         </Link>
       </div>
       <div className="text">
         {post.body}
         {'... '}
-        <Link href={`/post?id=${post.id}`} as={`/post/${post.id}`}>
+        <Link href="/post/[pid]" as={`/post/${post.id}`}>
           <a className="readmore">read more</a>
         </Link>
       </div>

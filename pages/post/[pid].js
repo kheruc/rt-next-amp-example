@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
-import Layout from '../components/layout';
-import authors from '../data/authors';
+import Layout from '../../components/layout';
+import authors from '../../data/authors';
 
 const Post = ({ post }) => {
   let author = authors.find(author => author.id == post.id);
@@ -74,7 +74,7 @@ const Post = ({ post }) => {
 
 Post.getInitialProps = async ({ query }) => {
   // fetch single post detail
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${query.id}`);
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${query.pid}`);
   const post = await res.json();
 
   return { post };

@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="info">
         <p>
           Note: This is a demo website.{' '}
-          <a href="https://reacttricks.com/building-an-amp-website-with-react-and-next">Learn how to build it.</a>
+          <a href="https://reacttricks.com/building-an-amp-website-with-react-and-next">Learn how to build it</a>.
         </p>
         <p>
           Data source: <a href="https://uinames.com">uinames.com</a>, <a href="https://unsplash.com">unsplash.com</a>{' '}

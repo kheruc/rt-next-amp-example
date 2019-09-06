@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-unfetch';
-import Layout from '../components/layout';
-import Post from '../components/post';
-import categories from '../data/categories.json';
+import Layout from '../../components/layout';
+import Post from '../../components/post';
+import categories from '../../data/categories.json';
 
 const Category = ({ category, posts }) => {
   return (
@@ -31,7 +31,7 @@ Category.getInitialProps = async ({ query }) => {
   });
 
   // get current category
-  let category = categories.find(cat => cat.id == query.id);
+  let category = categories.find(cat => cat.id == query.cid);
 
   // get posts from the current category
   posts = posts.filter(post => post.category.id == category.id);
